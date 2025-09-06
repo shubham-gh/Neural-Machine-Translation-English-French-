@@ -1,40 +1,16 @@
-# Neural-Machine-Translation-
-neural machine translator using  attention mechanism
-Date Translator: NMT with Attention
-This project uses an attention-based Neural Machine Translation (NMT) model to translate various human-readable dates into a standard YYYY-MM-DD format.
+# Neural-Machine-Translation
 
+### Disclaimer:
+The given solutions in this project are only for reference purpose.
 
+### Description of experiment
 
-Core Features :
+Welcome!
 
-Attention Mechanism: Focuses on relevant parts of the input to generate correct output.
+We will build a Neural Machine Translation (NMT) model to translate human-readable dates ("25th of June, 2009") into machine-readable dates ("2009-06-25").
+We will do this using an attention model, one of the most sophisticated sequence-to-sequence models.
 
-Bidirectional LSTM Encoder: Reads dates forwards and backwards for full context.
+### Acknowledgements
 
-LSTM Decoder: Generates the output date one character at a time.
-
-Attention Visualization: Shows the model's focus during translation.
-
-
-
-Quickstart :
-
-1. Install Dependencies:
-
-pip install tensorflow keras numpy faker babel matplotlib tqdm termcolor
-
-2. Run Notebook:
-
-Launch Neural machine translation with attention_latest.ipynb. Running the cells will build and train the model, though pre-trained weights can be loaded to skip this.
-
-
-
-Project Files :
-
-The main logic is in the .ipynb notebook. nmt_utils.py contains data helpers, and test_utils.py verifies model components.
-
-
-
-Acknowledgements :
-
-The foundational architecture for this project was developed as part of an assignment for the Coursera Deep Learning Specialization. This course provided an excellent opportunity to implement a sophisticated attention-based Neural Machine Translation model from scratch and demonstrate a thorough understanding of its underlying mechanisms.
+https://www.coursera.org/learn/nlp-sequence-models <br>
+https://www.deeplearning.ai/program/deep-learning-specialization/
