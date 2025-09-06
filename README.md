@@ -24,4 +24,5 @@ Project Files
 The main logic is in the .ipynb notebook. nmt_utils.py contains data helpers, and test_utils.py verifies model components.
 
 Acknowledgements :
+
 The foundational architecture for this project was developed as part of an assignment for the Coursera Deep Learning Specialization. This course provided an excellent opportunity to implement a sophisticated attention-based Neural Machine Translation model from scratch and demonstrate a thorough understanding of its underlying mechanisms.
